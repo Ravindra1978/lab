@@ -28,5 +28,4 @@ echo "created $i instance: $IP_ADDRESS"
     #                     }}]
     #         }
     #         '
-    #     done
-
+    done
