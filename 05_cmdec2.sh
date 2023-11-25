@@ -19,12 +19,12 @@ echo "created $i instance: $IP_ADDRESS"
      {
              "Changes": [{
              "Action": "CREATE",
-                     "ResourceRecordSet": {
-                         "Name": "'$i.$DOMAIN_NAME'",
-                         "Type": "A",
-                         "TTL": 300,
-                         "ResourceRecords": [{ "Value": "'$IP_ADDRESS'"}]
-                         }}]
+                         "ResourceRecordSet": {
+                            "Name": "$i.$DOMAIN_NAME",
+                             "Type": "A",
+                             "TTL": 300,
+                             "ResourceRecords": [{ "Value": "$IP_ADDRESS"}]
+                          }}]
              }
              '
     done
